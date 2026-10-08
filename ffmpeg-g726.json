@@ -14,5 +14,6 @@
     "extension":{
       "g726" : "audio"
     },
-    "licence_required":false
+    "licence_required":false,
+    "using": ["solver_1"]
 }
