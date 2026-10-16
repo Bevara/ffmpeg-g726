@@ -1,5 +1,6 @@
 {
     "name": "ffmpeg-g726",
+    "version": "1.0.1",
     "description": "G.726 ADPCM decoder",
     "filters":["g726dec"],
     "help": "This is a reduced version of ffmpeg carrying the two G.726 ADPCM decoders only. G.726 above 24 kbit/s is not the same bitstream as Sun's G.721 and G.723, which libg711 reads from .au files.",
