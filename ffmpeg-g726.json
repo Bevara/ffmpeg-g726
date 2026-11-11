@@ -2,20 +2,30 @@
     "name": "ffmpeg-g726",
     "version": "1.0.2",
     "description": "G.726 ADPCM decoder",
-    "filters":["g726dec"],
+    "filters": [
+        "g726dec"
+    ],
     "help": "This is a reduced version of ffmpeg carrying the two G.726 ADPCM decoders only. G.726 above 24 kbit/s is not the same bitstream as Sun's G.721 and G.723, which libg711 reads from .au files.",
     "support": [
         "audio"
     ],
-    "sources":"https://bevara.ddns.net/sources/ffmpeg-g726.accessor",
-    "filter_source":{
-        "g726dec" : "dec_g726.c"
+    "sources": "https://bevara.ddns.net/sources/ffmpeg-g726.accessor",
+    "filter_source": {
+        "g726dec": "dec_g726.c"
     },
-    "Format": ["G726"],
-    "extension":{
-      "g726" : "audio"
+    "Format": [
+        "G726"
+    ],
+    "extension": {
+        "g726": "audio"
     },
-    "using": ["mm_solver_1.0.1", "mm_solver_1.0.2", "mm_solver_1.0.3", "mm_solver_1.0.4"],
+    "using": [
+        "mm_solver_1.0.1",
+        "mm_solver_1.0.2",
+        "mm_solver_1.0.3",
+        "mm_solver_1.0.4",
+        "mm_solver_1.0.5"
+    ],
     "patents": {
         "status": "expired",
         "note": "ITU-T G.726, 1990",
